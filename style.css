@@ -1,0 +1,49 @@
+/* Pick a nice background-color, font-family, color, font-size and line-height for the <body> */
+body {
+  background: #f1f4f8;
+  color: rgb(154, 154, 208);
+  font-family: 'Open Sans', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: normal;
+}
+h1 {
+  font-family: 'Raleway', serif;
+  font-size: 30px;
+  line-height: 1.6;
+}
+h2 {
+  font-family: 'Varela', serif;
+  font-size: 25px;
+  line-height: 1.2;
+}
+a:hover {
+  text-decoration: underline;
+}
+img.img-circle {
+  border-radius: 50%
+}
+i {
+  color: rgb(154, 196, 154);
+  font-size: 50px;
+}
+.card {
+  background-color: rgb(247, 247, 241);
+  box-shadow: 2px 2px 3px rgb(66, 92, 66, .1);
+  text-align: center;
+  padding: 40px;
+  margin: 10px 0px;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
